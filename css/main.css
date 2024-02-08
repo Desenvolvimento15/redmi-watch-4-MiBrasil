@@ -37,11 +37,8 @@ margin-left: -15px;
 :root{
 
 --background-white: #ffff;
---background-black: #000;
+--background-black: #111;
 --background-silver: #e2e1e6;
---background-green: #C8E9CE;
---background-green-light: #88B578;
---background-green-dark:  #88B57A;
 --text-white: #fff;
 --text-preto: #000;
 }
@@ -56,9 +53,7 @@ margin-left: -15px;
 .boxcolor-white{background-color: var(--background-white);}
 .boxcolor-silver{background-color: var(--background-silver);}
 .boxcolor-black{background-color: var(--background-black);}
-.boxcolor-green{background-color: var(--background-green)}
-.boxcolor-green-dark{background: var(--background-green-dark)}
-.boxcolor-green-light{background: var(--background-green-light)}
+
 
 @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/vf/index.css");
 @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/woff2/index.css");
@@ -66,31 +61,24 @@ margin-left: -15px;
 .img-fluid {width: 100%; height: auto;}
 .img-fluid-icons{margin: 0 auto; display: block;}
 
+.img-grid-mob{display: none;}
+.img-grid-desk{display: block;}
 
 
-.title-purple{
-    -webkit-text-fill-color: transparent;
-    background: linear-gradient(-55deg,#a39bed,#7169e1);
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-repeat: no-repeat;
-    background-size: 150% 150%;
-    color: #000;
-    font-size: 1rem;
-    font-weight: 700;
-    letter-spacing: 0;
-    text-align: start;
-}
-
-
-.title-xioami{
+.title-purple {
+-webkit-text-fill-color: transparent;
+background: linear-gradient(-55deg,#a39bed,#7169e1);
+-webkit-background-clip: text;
+background-clip: text;
+background-repeat: no-repeat;
+background-size: 150% 150%;
+color: #000;
+font-size: 2rem;
+font-weight: 700;
+letter-spacing: 0;
 text-align: center;
-font-size: 3rem;
-font-weight: 400;
-font-family: "Camphor Pro", sans-serif;
-position: relative;
-overflow-wrap: break-word;
 }
+
 
 .subtitle-xioami{
 text-align: center;
@@ -145,8 +133,6 @@ padding: 5rem;
 font-family: "Camphor Pro", sans-serif;
 }
 
-.img-grid-mob{display: none;}
-.img-grid-desk{display: block;}
 
 
 .btn-white {
@@ -215,6 +201,39 @@ margin: 1rem;
 
 
 /************************ Grid ***********************/
+
+.grid-desk{
+    
+        align-items: flex-end;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: -0.26172rem;
+        z-index: 2;
+}
+
+.grid-desk-1{
+ 
+        align-items: flex-start;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-top: 0.11328rem;
+        width: -2.917969999999997rem;
+   
+}
+
+
+
+
+
+
+
+
+
+
 
 .grid-xiaomi-text-info {
 
