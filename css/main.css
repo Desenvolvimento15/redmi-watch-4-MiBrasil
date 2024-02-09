@@ -35,14 +35,13 @@ margin-left: -15px;
 
 
 :root{
-
 --background-white: #ffff;
 --background-black: #111;
 --background-silver: #e2e1e6;
+
 --text-white: #fff;
 --text-preto: #000;
 }
-
 
 
 .txt-branco {color: var(--text-white);}
@@ -56,8 +55,8 @@ margin-left: -15px;
 @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/vf/index.css");
 @import url("https://i02.appmifile.com/i18n/fonts/CamphorPro/woff2/index.css");
 
-.img-fluid {width: 100%; height: auto;}
-.img-fluid-icons{margin: 0 auto; display: block;}
+.img-fluid {max-width: 100%; height: auto;}
+
 
 .img-grid-mob{display: none;}
 .img-grid-desk{display: block;}
@@ -214,15 +213,10 @@ gap: 4rem;
 }
 
 
-
-
-
 .grid-xiaomi-text-info {
-
 display: flex;
 align-items: center;
 align-content: center;
-
 }
 
 .grid-xiaomi-text {
@@ -245,7 +239,6 @@ flex-wrap: nowrap;
 }
 
 .icons-text-note{
-
 display: flex;
 flex-direction: column;
 flex-wrap: nowrap;
@@ -288,7 +281,6 @@ text-indent: 100px;
 transition: all .4s ease;
 }
 
-/*** Navigation ***/
 
 /*** Pagination ***/
 .slick-dots {
@@ -364,7 +356,6 @@ gap: 1rem;
 }
 
 .grid-bloco-two{
-
 display: flex;
 flex-direction: column;
 flex-wrap: nowrap;
@@ -394,7 +385,6 @@ flex-wrap: nowrap;
 }
 
 .icons-text-note{
-
 display: flex;
 flex-direction: column;
 flex-wrap: nowrap;
@@ -403,9 +393,6 @@ justify-content: center;
 align-items: center;
 line-height: 1.5;
 }
-
-
-
 
 /********************************************************/
 
@@ -426,7 +413,6 @@ font-family: "Camphor Pro", sans-serif;
 position: relative;
 overflow-wrap: break-word;
 }
-
 
 .subtitle-left {
 text-align: left;
@@ -483,7 +469,6 @@ line-height: 2;
 text-align: center;
 margin-bottom: -0.5rem;
 }
-
 
 .p-notas {
 text-align: left;
