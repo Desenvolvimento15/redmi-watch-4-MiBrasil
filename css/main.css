@@ -141,14 +141,7 @@ overflow-wrap: break-word;
 width: 19rem;
 }
 
-.icons-title {
-font-size: 1.3rem;
-font-family: "Camphor Pro", sans-serif;
-font-weight: 700;
-color: var(--text-preto);
-line-height: 1.2;
-text-align: center;
-}
+
 
 .icons-title-mp {
 font-size: 2rem;
@@ -160,13 +153,7 @@ text-align: center;
 margin-bottom: -0.5rem;
 }
 
-.icons-tex {
-font-size: 1rem;
-font-family: "Camphor Pro", sans-serif;
-font-weight: 400;
-line-height: 1.2;
-text-align: center;
-}
+
 
 .icons-size {
 width: 4rem;
@@ -202,50 +189,10 @@ margin-top: 0.11328rem;
 width: -2.917969999999997rem;
 }
 
-.grid-img-text {
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-align-content: center;
-justify-content: center;
-align-items: center;
-gap: 4rem;
-}
-
-
 .grid-xiaomi-text-info {
 display: flex;
 align-items: center;
 align-content: center;
-}
-
-.grid-xiaomi-text {
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-justify-content: flex-start;
-margin-top: 1rem;
-align-content: center;
-align-items: center;
-}
-
-.grid-icons-text-note {
-display: flex;
-gap: 3rem;
-justify-content: center;
-align-items: flex-start;
-flex-direction: row;
-flex-wrap: nowrap;
-}
-
-.icons-text-note{
-display: flex;
-flex-direction: column;
-flex-wrap: nowrap;
-align-content: center;
-justify-content: center;
-align-items: center;
-line-height: 1.5;
 }
 
 
@@ -324,6 +271,8 @@ margin-top: 5rem;
 
 .img-fluid-icons {width: 100%; height: auto;}
 
+.icons-img{width: 6rem;}
+
 .row-s101 {padding: 0 0px;}
 .spacing{padding: 1rem;}
 .spacing-galery{padding: 1rem;}
@@ -365,36 +314,7 @@ align-items: center;
 gap: 1rem;    
 }
 
-
-.grid-xiaomi-text{
-display: flex;
-align-items: center;
-align-content: center;
-flex-direction: row;
-flex-wrap: nowrap;
-justify-content: center;
-}
-
-.grid-icons-text-note {
-display: flex;
-gap: 3rem;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-flex-wrap: nowrap;
-}
-
-.icons-text-note{
-display: flex;
-flex-direction: column;
-flex-wrap: nowrap;
-align-content: center;
-justify-content: center;
-align-items: center;
-line-height: 1.5;
-}
-
-/********************************************************/
+/**************************TxT******************************/
 
 .title-xioami{
 text-align: center;
@@ -448,27 +368,6 @@ position: relative;
 overflow-wrap: break-word;
 }
 
-.icons-text {
-font-size: 1rem;
-text-align: center;
-font-family: "Camphor Pro", sans-serif;
-position: relative;
-font-weight: 500;
-line-height: 1.2;
-margin-top: 1rem;
-}
-
-.icons-img{width: 6rem;}
-
-.icons-title-mp {
-font-size: 1.3rem;
-font-family: "Camphor Pro", sans-serif;
-font-weight: 700;
-color: var(--text-preto);
-line-height: 2;
-text-align: center;
-margin-bottom: -0.5rem;
-}
 
 .p-notas {
 text-align: left;
