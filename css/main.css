@@ -141,6 +141,15 @@ overflow-wrap: break-word;
 width: 19rem;
 }
 
+.icons-title {
+font-size: 1.3rem;
+font-family: "Camphor Pro", sans-serif;
+font-weight: 700;
+color: var(--text-preto);
+line-height: 1.2;
+text-align: center;
+}
+
 .icons-title-mp {
 font-size: 2rem;
 font-family: "Camphor Pro", sans-serif;
@@ -149,6 +158,14 @@ color: var(--text-preto);
 line-height: 2;
 text-align: center;
 margin-bottom: -0.5rem;
+}
+
+.icons-tex {
+font-size: 1rem;
+font-family: "Camphor Pro", sans-serif;
+font-weight: 400;
+line-height: 1.2;
+text-align: center;
 }
 
 .icons-size {
@@ -185,10 +202,14 @@ margin-top: 0.11328rem;
 width: -2.917969999999997rem;
 }
 
-.grid-xiaomi-text-info {
+.grid-img-text {
 display: flex;
-align-items: center;
+flex-direction: row;
+flex-wrap: nowrap;
 align-content: center;
+justify-content: center;
+align-items: center;
+gap: 4rem;
 }
 
 
