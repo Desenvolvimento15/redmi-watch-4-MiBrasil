@@ -52,11 +52,11 @@ margin-left: -15px;
 .boxcolor-black{background-color: var(--background-black);}
 
 @font-face {
-font-family: 'Camphor Pro';
+font-family: 'CamphorPro';
 font-style: normal;
 font-weight: 900;
 font-display: swap;
-src: url('./fonts/0.woff2') format('woff2');
+src: url('./fonts/CamphorPro.woff2') format('woff2');
 unicode-range: U+1F00-1FFF;
 }
 
@@ -86,7 +86,7 @@ text-align: center;
 font-size: 3rem;
 font-weight: 600;
 font-display: swap;
-font-family: "Camphor Pro";
+font-family: 'CamphorPro', sans-serif;
 position: relative;
 overflow-wrap: break-word;
 }
