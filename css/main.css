@@ -64,22 +64,11 @@ unicode-range: U+1F00-1FFF;
 .img-fluid {max-width: 100%; height: auto;}
 
 .img-mob{display: none;}
-.img-grid-desk{display: block;}
+.img-desk{display: block;}
 
 .spacing{padding: 3rem;}
 .spacing-galery{padding: 12rem;}
 
-.grid-title{
-position: absolute;
-left: 1137px;
-right: 0;
-top: 169px;
-bottom: 0;
-width: 21rem;
-height: 10rem;
-display: flex;
-flex-direction: column;
-}
 
 .title-redmi{
 text-align: center;
@@ -188,12 +177,22 @@ text-align: left;
 margin-bottom: -0.5rem;
 }
 
+.icons-title {
+font-size: 1.5rem;
+font-family: "Camphor Pro", sans-serif;
+font-weight: 700;
+color: var(--text-white);
+text-align: center;
+margin-bottom: 1rem;
+}
+
+
 .icons-text {
 font-size: 1rem;
 font-family: "Camphor Pro", sans-serif;
 font-weight: 400;
 line-height: 1.2;
-text-align: left;
+text-align: center;
 }
 
 .icons-size {
@@ -203,6 +202,18 @@ margin: 1rem;
 
 
 /************************ Grid ***********************/
+
+.grid-title {
+position: absolute;
+left: 1137px;
+right: 0;
+top: 169px;
+bottom: 0;
+width: 22rem;
+height: 6rem;
+display: flex;
+flex-direction: column;
+}
 
 .grid-img-text{
 display: flex;
@@ -233,21 +244,26 @@ justify-content: center;
 }
 
 .grid-atm{
-    position: absolute;
-    left: -42rem;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    max-width: 36rem;
-    height: 15rem;
-    display: block;
+position: absolute;
+left: -42rem;
+right: 0;
+top: 0;
+bottom: 0;
+margin: auto;
+max-width: 36rem;
+height: 15rem;
+display: block;
 }
 
 .icons-img-text {
 display: flex;
 flex-direction: column;
 margin: 1rem;
+}
+
+
+.grid-text{
+display: flex;
 }
 
 /********************** Slideshow ********************/
@@ -331,7 +347,7 @@ margin-top: 5rem;
 .spacing-galery{padding: 1rem;}
 
 
-.img-grid-desk{display: none;}
+.img-desk{display: none;}
 .img-mob{display: block;}
 
 .col-md-12-s101 {
