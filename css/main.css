@@ -13,6 +13,8 @@ line-height: 1.15;
 -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+@-ms-viewport {width: device-width;}
+
 @font-face {
 font-family: 'CamphorPro';
 font-style: normal;
@@ -30,10 +32,9 @@ font-weight: 400;
 line-height: 1.5;
 color: #212529;
 text-align: left;
-background-color: #fff;
+background-color: #3a3a3a;
 }
 
-@-ms-viewport {width: device-width;}
 
 /***************************** Img & Icons ******************************************/
 
@@ -87,7 +88,6 @@ position: relative;
 width: 100%;
 min-height: 1px;
 }
-
 
 .col-sm-12-s101 {
 -ms-flex: 0 0 100%;
@@ -258,7 +258,6 @@ justify-items: start;
 display: flex;
 }
 
-
 .grid-coll-text {
 display: flex;
 flex-direction: column;
@@ -294,7 +293,6 @@ display: flex;
 
 .spacing{padding: 3rem;}
 .spacing-galery{padding: 12rem;}
-
 
 .parent {
 display: grid;
@@ -390,7 +388,6 @@ grid-row-gap: 30px;
 .div4 { grid-area: 3 / 1 / 4 / 3; }
 .div5 { grid-area: 4 / 1 / 5 / 3; }
 .div6 { grid-area: 5 / 1 / 6 / 3; }
-
 
 .spacing{padding: 1rem;}
 .spacing-galery{padding: 1rem;}
