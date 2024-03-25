@@ -436,6 +436,18 @@ display: flex;
 flex-direction: column;
 }
 
+.grid-img-text {
+display: flex;
+gap: 2rem;
+flex-direction: column;
+}
+
+.grid-text {
+display: flex;
+flex-direction: column;
+}
+
+
 /**************************TxT******************************/
 
 .title-redmi {
