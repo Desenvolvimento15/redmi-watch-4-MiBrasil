@@ -399,9 +399,9 @@ grid-row-gap: 30px;
 /***************************** Grind Mobile ************************************/
 
 .grid-xiaomi-text-info {
-display: flex;
-align-items: center;
-align-content: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .grid-two-blocos{
