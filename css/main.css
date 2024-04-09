@@ -368,7 +368,6 @@ background: #292929;
 border-color: #292929;
 }
 
-
 /************************************* Mobile ***************************************/
 
 @media only screen and (max-width: 920px) {
@@ -394,14 +393,11 @@ grid-row-gap: 30px;
 .img-desk{display: none;}
 .img-mob{display: block;}
 
-
-
 /***************************** Grind Mobile ************************************/
 
 .grid-xiaomi-text-info {
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+display: grid;
+grid-template-columns: 1fr 1fr;
 }
 
 .grid-two-blocos{
