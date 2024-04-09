@@ -146,6 +146,7 @@ position: relative;
 overflow-wrap: break-word;
 line-height: 1.1;
 margin-bottom: 1rem;
+line-height: 1.1;
 }
 
 .subtitle-center {
@@ -155,6 +156,8 @@ font-weight: 700;
 font-family: 'CamphorPro', sans-serif;
 position: relative;
 overflow-wrap: break-word;
+line-height: 1.1;
+margin-bottom: 1rem;
 }
 
 .subtitle {
@@ -195,7 +198,7 @@ overflow-wrap: break-word;
     line-height: 1.3;
     overflow-wrap: break-word;
     width: 19rem;
-    top: -17rem;
+    top: -9rem;
     left: 49rem;
 }
 
