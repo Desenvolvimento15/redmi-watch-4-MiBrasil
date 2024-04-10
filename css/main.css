@@ -44,7 +44,7 @@ img {vertical-align: middle; border-style: none;}
 
 .icons-size {width: 4rem; margin: 1rem;}
 .icons-img-end{width: 40rem; margin: 0 auto; display: block; margin-top: 5rem;}
-        
+
 
 /***************************** Roots Color ******************************************/
 
@@ -190,15 +190,15 @@ line-height: 1.3;
 overflow-wrap: break-word;
 }
 .p-info-left {
-    font-size: 1.1rem;
-    text-align: left;
-    font-family: 'CamphorPro', sans-serif;
-    position: relative;
-    line-height: 1.3;
-    overflow-wrap: break-word;
-    width: 19rem;
-    top: -9rem;
-    left: 49rem;
+font-size: 1.1rem;
+text-align: left;
+font-family: 'CamphorPro', sans-serif;
+position: relative;
+line-height: 1.3;
+overflow-wrap: break-word;
+width: 19rem;
+top: -9rem;
+left: 49rem;
 }
 
 .p-notas{
@@ -270,17 +270,17 @@ flex-direction: column;
 }
 
 .grid-info {
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    flex-direction: column;
-    }
+position: absolute;
+bottom: 0;
+display: flex;
+flex-direction: column;
+}
 
 .grid-img-text {
-    display: flex;
-    gap: 6rem;
-    justify-content: center;
-    align-items: center;
+display: flex;
+gap: 6rem;
+justify-content: center;
+align-items: center;
 }
 
 .grid-xiaomi-text-info {
@@ -295,12 +295,12 @@ display: flex;
 }
 
 .grid-coll-text {
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    align-items: flex-start;
-    justify-content: center;
-    width: 34rem;
+display: flex;
+flex-direction: column;
+align-content: flex-start;
+align-items: flex-start;
+justify-content: center;
+width: 34rem;
 }
 
 .grid-atm{
@@ -322,15 +322,15 @@ margin: 1rem;
 }
 
 .grid-text {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    gap: 5rem;
+display: flex;
+justify-content: center;
+flex-direction: row;
+align-items: center;
+gap: 5rem;
 }
 
 
-    
+
 
 /***************************** Conteudos ******************************************/
 
@@ -344,14 +344,14 @@ grid-template-rows: repeat(3, 1fr);
 grid-column-gap: 19px;
 grid-row-gap: 0px;
 }
-    
+
 .div1 { grid-area: 1 / 1 / 2 / 5; }
 .div2 { grid-area: 2 / 1 / 3 / 4; }
 .div3 { grid-area: 3 / 1 / 5 / 2; }
 .div4 { grid-area: 3 / 2 / 5 / 3; }
 .div5 { grid-area: 3 / 3 / 5 / 4; }
 .div6 { grid-area: 2 / 4 / 5 / 5; }
-    
+
 
 /***************************** Slides ******************************************/
 
